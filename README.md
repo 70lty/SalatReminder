@@ -10,5 +10,5 @@
 
 ## 💻 I'm worked on :
 
-[![cs](https://skillicons.dev/icons?i=cs)](https://skillicons.dev)
+[![cs,visualstudio](https://skillicons.dev/icons?i=cs,visualstudio)](https://skillicons.dev)
 
