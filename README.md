@@ -8,7 +8,7 @@
 <p align="left">
 </p>
 
-## 💻 I'm working on :
+## 💻 I'm worked on :
 
-[![lua, c, cpp, cs, py, visualstudio, vscode](https://skillicons.dev/icons?i=lua,c,cpp,cs,py,visualstudio,vscode)](https://skillicons.dev)
+[![cs](https://skillicons.dev/icons?i=cs)](https://skillicons.dev)
 
