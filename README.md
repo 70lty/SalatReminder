@@ -4,6 +4,7 @@
 - 🔋​ Change your location in the programm.cs at line 22 !
 - 🔭 Use SalatReminder.exe
 - 🔋​ **Automatic launch on Windows startup !!!**
+- 🔋​ **Ear 3x BEEP and don't forget your Salat**
 
 <p align="left">
 </p>
