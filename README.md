@@ -9,5 +9,5 @@
 </p>
 
 <h3 align="left">Language :</h3>
-[![cs](https://skillicons.dev/icons?i=cs)](https://skillicons.dev)
+[lua, c, cpp, cs, py, visualstudio, vscode](https://skillicons.dev/icons?i=lua,c,cpp,cs,py,visualstudio,vscode)](https://skillicons.dev)
 
