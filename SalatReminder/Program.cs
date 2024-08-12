@@ -17,7 +17,6 @@ namespace PrayerTimesApp
         static async Task Main(string[] args)
         {
             ShowConsoleWindow();
-            Console.WriteLine("Ne me ferme pas, je vais le faire tout seul !");
 
             AddApplicationToStartup();
             string url = "https://muslimsalat.com/ans.json"; // Changez l'URL pour votre location et verifier sur le site Muslim Salat, vous pouvez cherchez avec code postal, ville.
@@ -36,12 +35,16 @@ namespace PrayerTimesApp
                 await DownloadAudio(audioUrl, audioFile);
 
                 SchedulePrayers(prayerTimes, audioFile);
-
-                await Task.Delay(1000);
+                
+                await Task.Delay(2000);
                 HideConsoleWindow();
-
-                Console.WriteLine("Press any key to exit...");
-                Console.ReadKey();
+                Console.Beep();
+                Console.Beep();
+                Console.Beep();
+                while (true)
+                {
+                    await Task.Delay(10000);
+                }
             }
             else
             {
@@ -75,6 +78,7 @@ namespace PrayerTimesApp
                 {
                     Console.WriteLine($"Error: {ex.Message}");
                     return null;
+                    
                 }
             }
         }
@@ -108,7 +112,7 @@ namespace PrayerTimesApp
                 TimeSpan timeToPrayer = prayer.Value - DateTime.Now;
                 if (timeToPrayer.TotalMilliseconds > 0)
                 {
-                    Console.WriteLine($"Scheduling {prayer.Key} in {timeToPrayer.TotalMinutes} minutes.");
+                    Console.WriteLine($"Prière : {prayer.Key} dans {timeToPrayer.TotalMinutes} minutes.");
                     Task.Delay(timeToPrayer).ContinueWith(_ => PlayAdhan(audioFile));
                 }
             }
@@ -126,8 +130,6 @@ namespace PrayerTimesApp
                 Thread.Sleep(5000);
                 outputDevice.Stop();
             }
-
-            Console.WriteLine("Played Adhan.");
         }
 
         static void AddApplicationToStartup()
@@ -135,7 +137,7 @@ namespace PrayerTimesApp
             try
             {
                 string appName = "Salat Reminder";
-                string appPath = System.Reflection.Assembly.GetExecutingAssembly().Location;
+                string appPath = Process.GetCurrentProcess().MainModule.FileName;
 
                 RegistryKey registryKey = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Microsoft\Windows\CurrentVersion\Run", true);
                 if (registryKey != null)

@@ -4,8 +4,10 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
+    <PublishSingleFile>true</PublishSingleFile>
     <Nullable>enable</Nullable>
     <ApplicationIcon>image-removebg-preview.ico</ApplicationIcon>
+    <SelfContained>true</SelfContained>
   </PropertyGroup>
 
   <ItemGroup>

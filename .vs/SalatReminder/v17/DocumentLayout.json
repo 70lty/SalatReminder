@@ -5,14 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9269DA9E-EB8A-479E-AEEC-B5C011324B83}|SalatReminder\\SalatReminder.csproj|c:\\users\\zollty\\source\\repos\\salatreminder\\salatreminder\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9269DA9E-EB8A-479E-AEEC-B5C011324B83}|SalatReminder\\SalatReminder.csproj|solutionrelative:salatreminder\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9269DA9E-EB8A-479E-AEEC-B5C011324B83}|SalatReminder\\SalatReminder.csproj|c:\\users\\zollty\\source\\repos\\salatreminder\\salatreminder\\salatreminder.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{9269DA9E-EB8A-479E-AEEC-B5C011324B83}|SalatReminder\\SalatReminder.csproj|solutionrelative:salatreminder\\salatreminder.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9269DA9E-EB8A-479E-AEEC-B5C011324B83}|SalatReminder\\SalatReminder.csproj|c:\\users\\zollty\\source\\repos\\salatreminder\\salatreminder\\salatreminder.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9269DA9E-EB8A-479E-AEEC-B5C011324B83}|SalatReminder\\SalatReminder.csproj|solutionrelative:salatreminder\\salatreminder.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,33 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SalatReminder",
-              "DocumentMoniker": "C:\\Users\\zollty\\source\\repos\\SalatReminder\\SalatReminder\\SalatReminder.csproj",
-              "RelativeDocumentMoniker": "SalatReminder\\SalatReminder.csproj",
-              "ToolTip": "C:\\Users\\zollty\\source\\repos\\SalatReminder\\SalatReminder\\SalatReminder.csproj",
-              "RelativeToolTip": "SalatReminder\\SalatReminder.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-12T21:58:58.757Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SalatReminder",
-              "DocumentMoniker": "C:\\Users\\zollty\\source\\repos\\SalatReminder\\SalatReminder\\SalatReminder.csproj",
-              "RelativeDocumentMoniker": "SalatReminder\\SalatReminder.csproj",
-              "ToolTip": "C:\\Users\\zollty\\source\\repos\\SalatReminder\\SalatReminder\\SalatReminder.csproj",
-              "RelativeToolTip": "SalatReminder\\SalatReminder.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-12T21:58:44.782Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -57,7 +24,7 @@
               "RelativeDocumentMoniker": "SalatReminder\\Program.cs",
               "ToolTip": "C:\\Users\\zollty\\source\\repos\\SalatReminder\\SalatReminder\\Program.cs",
               "RelativeToolTip": "SalatReminder\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAmwJAAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-12T21:35:53.334Z",
               "EditorCaption": ""
