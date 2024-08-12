@@ -69,7 +69,6 @@ namespace PrayerTimesApp
                         { "Asr", DateTime.Parse((string)items.asr) },
                         { "Maghrib", DateTime.Parse((string)items.maghrib) },
                         { "Isha", DateTime.Parse((string)items.isha) },
-                        { "Test", DateTime.Today.AddHours(23).AddMinutes(40) }
                     };
 
                     return prayerTimes;
